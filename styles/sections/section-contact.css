@@ -1,0 +1,162 @@
+.contact-title {
+  font-size: 58px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.contact-container {
+  display: flex;
+  flex-direction: row;
+}
+.contact-details {
+  width: 200px;
+  padding: 12px 28px;
+  background-color: var(--neutral);
+  border-radius: 12px;
+}
+@media (max-width: 560px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-details {
+    margin-top: 12px;
+    width: 400px;
+  }
+}
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 8px;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--neutral);
+  padding: 10px 14px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+.contact-form label {
+  margin-bottom: 12px;
+}
+.contact-form input {
+  border: none;
+  background-color: transparent;
+  color: var(--text);
+  font-size: 16px;
+  font-family: var(--ff);
+  border-bottom: 1px solid var(--neutral);
+}
+.contact-form input::placeholder {
+  color: var(--text-dark);
+  font-size: 16px;
+}
+.contact-form input:focus {
+  outline: none;
+  border-bottom: 1px solid var(--secondary);
+}
+
+.text-field {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--neutral);
+  padding: 10px 14px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+.contact-form textarea {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-family: var(--ff);
+  color: var(--text);
+  resize: none;
+  height: 58px;
+}
+.contact-form textarea::placeholder {
+  color: var(--text-dark);
+  font-size: 16px;
+}
+.contact-form textarea:focus {
+  outline: none;
+  border-bottom: 1px solid var(--secondary);
+}
+.contact-submit {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-submit .primary-button {
+  padding: 12px 120px;
+}
+.contact-alert {
+  font-size: 12px;
+  color: var(--secondary);
+  margin-bottom: 8px;
+}
+
+.self-personal {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.self-image {
+  width: 40px;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+}
+.self-image img {
+  width: 100%;
+  border-radius: 25px;
+}
+.self-name {
+  flex: 1;
+  font-weight: 500;
+}
+
+.self-detail-title {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.self-email {
+  margin-bottom: 12px;
+}
+
+.self-details {
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--secondary);
+  margin-bottom: 12px;
+}
+
+.self-social {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--secondary);
+}
+
+.self-social-title {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.social-icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+}
+.social-name {
+  font-size: 16px;
+  font-weight: 500;
+}
