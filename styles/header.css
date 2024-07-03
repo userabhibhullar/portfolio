@@ -66,6 +66,7 @@
   cursor: pointer;
   display: none;
 }
+
 @media (max-width: 530px) {
   .menu-button-menu {
     display: block;
@@ -83,7 +84,7 @@
     background-color: var(--background-secondary);
     border-radius: 12px;
   }
-  #check:checked ~ .header-links {
+  .opened {
     top: 68px;
   }
   #check:checked ~ .menu-button-menu {
