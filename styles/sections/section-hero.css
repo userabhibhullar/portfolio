@@ -56,7 +56,8 @@
     border-radius: 12px;
   }
   .portfolio-details {
-    align-items: center;
+    text-align: center;
+    margin: 0;
   }
   .portfolio-profile {
     width: 300px;
