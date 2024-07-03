@@ -1,5 +1,10 @@
 /* color-pallete: https://colorhunt.co/palette/f8f4e1af8f6f74512d543310*/
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
 :root {
   --background: rgb(32, 32, 32);
   --background-secondary: rgba(26, 26, 26, 0.8);
