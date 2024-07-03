@@ -28,12 +28,23 @@
   z-index: 100;
   margin-bottom: 24px;
 }
+@keyframes slide-from-left {
+  from {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
 .portfolio-details {
   flex: 1;
   z-index: 100;
   margin-right: 24px;
   display: flex;
   flex-direction: column;
+  animation: slide-from-left 1s;
 }
 .portfolio-cta {
   display: flex;
@@ -41,9 +52,20 @@
   padding: 10px;
   align-items: center;
 }
+@keyframes spinning {
+  from {
+    opacity: 0;
+    transform: rotateZ(-360deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateZ(0);
+  }
+}
 .portfolio-profile {
   width: 200px;
   margin-bottom: 12px;
+  animation: spinning 1s;
 }
 .portfolio-image {
   width: 100%;
